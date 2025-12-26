@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.page {
+  max-width: 420px;
+  margin: auto;
+  padding: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+.camera-box {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px dashed #38bdf8;
+  background: #020617;
+}
+
+.result-card {
+  background: #020617;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+}
+
+.row {
+  margin-bottom: 12px;
+}
+
+.label {
+  display: block;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin-bottom: 4px;
+}
+
+.value {
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
+.wrap {
+  white-space: normal;
+}
+
+.mono {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: #38bdf8;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #38bdf8, #06b6d4);
+  color: #020617;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
