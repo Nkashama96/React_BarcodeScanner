@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/Nkashama96-portfolio",
+  base: "/React_BarcodeScanner",
 })
