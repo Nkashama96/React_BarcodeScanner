@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import {type ReactNode } from 'react';
 import { useEffect, useRef, useState } from "react";
 import { BrowserMultiFormatReader } from "@zxing/browser";
 import type { IScannerControls } from "@zxing/browser";
